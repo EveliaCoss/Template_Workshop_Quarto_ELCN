@@ -1,103 +1,83 @@
 ::: {layout-ncol="2"}
-![](figures/rsgMexico.jpeg){width="200"}
+![](figures/enesLogo.png)
 :::
 
 # Información general {.unnumbered}
 
--   ::: {.panel-tabset group="globalInfo"}
-    ### Sobre el curso 📌
+- ::: {.panel-tabset group="globalInfo"}
+  ### Sobre el curso 📌
 
-    Fuente del curso
+  Fuente del curso
 
-    -   **Fechas:** Dias de la semana/ dias del mes
+  - **Fechas:** Dias de la semana/ dias del mes
 
-    -   **Duración del curso:** X horas
+  - **Duración del curso:** X horas
 
-    #### **Instructores:**
+  #### **Instructores:**
 
-    -   **Evelia Lorena Coss-Navarrete** - PostDoc, LIIGH-UNAM. [Pagina web](https://eveliacoss.github.io/)
-    -   **Aaron Espinosa Jaime -** Estudiante de maestria, Cinvestav-LANGEBIO.
-    -   **Andrés Arredondo** - Ciencias Agrogenómicas, CCM-UNAM.
+  - **Evelia Lorena Coss-Navarrete** - PostDoc, LIIGH-UNAM. [Pagina web](https://eveliacoss.github.io/)
 
-    Ayudantes:
+  Ayudantes:
 
-    -   **Daniel Chávez** - Profesor invitado, UAGro.
+  - **Nombre - cargo, escuela**
 
-    -   **Camilo Pérez** - Estudiante de doctorado, Cinvestav-LANGEBIO.
+  #### **Resumen:**
 
-    -   **Abel Lovaco Flores -** Estudiante de maestria, Cinvestav-Irapuato.
+  Para que es el curso, que se va abordar y que se espera que aprendan. Ejemplo:
 
-    -   **Israel Aguilar** - Posdoc, Tec de Monterrey.
+  Este tutorial te enseñará los conceptos fundamentales en el empleo y manejo de Bash Shell, incluyendo **la creación de scripts de Bash, generación de programas con funcionalidades sencillas aplicables a bioinformática y a programación en general.**
 
-    -   **Mariana Devon -** Estudiante de maestría, UAM.
+  #### **Objetivos:**
 
-    -   **Andrés Arredondo** - Ciencias Agrogenómicas, CCM-UNAM.
+  En esta guía rápida aprenderás a:
 
-    #### **Resumen:**
+  - Crear y gestionar un repositorio.
 
-    Para que es el curso, que se va abordar y que se espera que aprendan. Ejemplo:
+  - Iniciar y administrar una nueva rama.
 
-    Este tutorial te enseñará los conceptos fundamentales en el empleo y manejo de Bash Shell, incluyendo **la creación de scripts de Bash, generación de programas con funcionalidades sencillas aplicables a bioinformática y a programación en general.**
+  - Realizar cambios en un archivo y enviarlos a GitHub como confirmación.
 
-    #### **Objetivos:**
+  - Crear tu página de inicio en Github.
 
-    En esta guía rápida aprenderás a:**Daniel Chávez** - Profesor invitado, UAGro.
+  - Crear tu página web.
 
-    -   **Camilo Pérez** - Estudiante de doctorado, Cinvestav-LANGEBIO.
+  ## Citar y reutilizar el material del curso
 
-    -   **Abel Lovaco Flores -** Estudiante de maestria, Cinvestav-Irapuato.
+  Los datos del curso se pueden reutilizar y adaptar libremente con la debida atribución. Todos los datos de los cursos de estos repositorios están sujetos a la licencia [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-    -   **Israel Aguilar** - Posdoc, Tec de Monterrey.
+  ### Requisitos previos
 
-    -   **Mariana Devon -** Estudiante de maestría, UAM.
+  - Debes tener una **cuenta de usuario de GitHub**. Para más información, consulta "[Creación de una cuenta en GitHub](https://docs.github.com/es/get-started/start-your-journey/creating-an-account-on-github)".
 
-    -   **Andrés Arredondo** - Ciencias Agrogenómicas, CCM-UNAM.Crear y gestionar un repositorio.
+  - No necesitas saber cómo codificar, utilizar la línea de comandos o instalar Git (el software de control de versiones en el que está compilado GitHub).
 
-    -   Iniciar y administrar una nueva rama.
+  - Contar con una terminal con Git, en Windows puedes usar [Git Bash.](https://miguel-mx.github.io/2024-01-24-ccm-unam-swc/)
 
-    -   Realizar cambios en un archivo y enviarlos a GitHub como confirmación.
+  ### Agenda 📆 {#agenda}
 
-    -   Crear tu página de inicio en Github.
-
-    -   Crear tu página web.
-
-    ## Citar y reutilizar el material del curso
-
-    Los datos del curso se pueden reutilizar y adaptar libremente con la debida atribución. Todos los datos de los cursos de estos repositorios están sujetos a la licencia [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-    ### Requisitos previos
-
-    -   Debes tener una **cuenta de usuario de GitHub**. Para más información, consulta "[Creación de una cuenta en GitHub](https://docs.github.com/es/get-started/start-your-journey/creating-an-account-on-github)".
-
-    -   No necesitas saber cómo codificar, utilizar la línea de comandos o instalar Git (el software de control de versiones en el que está compilado GitHub).
-
-    -   Contar con una terminal con Git, en Windows puedes usar [Git Bash.](https://miguel-mx.github.io/2024-01-24-ccm-unam-swc/)
-
-    ### Agenda 📆 {#agenda}
-
-    +----------------------------------------------------+-------------+
-    | Tema                                               | Tiempo      |
-    +====================================================+:===========:+
-    | 🔷 **Sección** **1 - (11:30 - 13:30 h) (7 marzo)** |             |
-    +----------------------------------------------------+-------------+
-    | -   Creación de una cuenta en GitHub               | 5 min       |
-    +----------------------------------------------------+-------------+
-    | -   Introducción a Git / GitHub                    | 15 min      |
-    +----------------------------------------------------+-------------+
-    | -   **Actividad 1**: Sincronización y llaves       | 15 min      |
-    +----------------------------------------------------+-------------+
-    | ☕ *Coffee break (10 min) - (12:00-12:10) ☕*      | 10 min      |
-    +----------------------------------------------------+-------------+
-    | 🔷  **Sección** **2 - (12:10-13:00 h)**            |             |
-    +----------------------------------------------------+-------------+
-    | -   Comandos usados en Github y RStudio            | 25 min      |
-    +----------------------------------------------------+-------------+
-    | -   **Actividad 2:** Pagina de inicio en GitHub    | 15 min      |
-    +----------------------------------------------------+-------------+
-    | 🔷  **Sección 3 - (11:30 - 13:30 h) (14 marzo)**   |             |
-    +----------------------------------------------------+-------------+
-    | -   Buenas practicas en R                          | 30 min      |
-    +----------------------------------------------------+-------------+
-    | -   **Actividad 3:** Pagina web en GitHub          | 1:30 min    |
-    +----------------------------------------------------+-------------+
-    :::
+  +----------------------------------------------------+--------------+
+  | Tema                                               | Tiempo       |
+  +====================================================+:============:+
+  | 🔷 **Sección** **1 - (11:30 - 13:30 h) (7 marzo)** |              |
+  +----------------------------------------------------+--------------+
+  | - Creación de una cuenta en GitHub                 | 5 min        |
+  +----------------------------------------------------+--------------+
+  | - Introducción a Git / GitHub                      | 15 min       |
+  +----------------------------------------------------+--------------+
+  | - **Actividad 1**: Sincronización y llaves         | 15 min       |
+  +----------------------------------------------------+--------------+
+  | ☕ *Coffee break (10 min) - (12:00-12:10) ☕*      | 10 min       |
+  +----------------------------------------------------+--------------+
+  | 🔷  **Sección** **2 - (12:10-13:00 h)**            |              |
+  +----------------------------------------------------+--------------+
+  | - Comandos usados en Github y RStudio              | 25 min       |
+  +----------------------------------------------------+--------------+
+  | - **Actividad 2:** Pagina de inicio en GitHub      | 15 min       |
+  +----------------------------------------------------+--------------+
+  | 🔷  **Sección 3 - (11:30 - 13:30 h) (14 marzo)**   |              |
+  +----------------------------------------------------+--------------+
+  | - Buenas practicas en R                            | 30 min       |
+  +----------------------------------------------------+--------------+
+  | - **Actividad 3:** Pagina web en GitHub            | 1:30 min     |
+  +----------------------------------------------------+--------------+
+  :::

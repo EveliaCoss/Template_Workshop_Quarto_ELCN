@@ -5,7 +5,7 @@ project:
 book:
   title: "Workshop"
   author: "Dra. Evelia Coss"
-  date: "27/03/2025"
+  date: "06/25/2026"
   page-navigation: true
   chapters:
     - index.qmd
@@ -16,9 +16,9 @@ book:
     - Cap4.qmd
     - Cap5.qmd
   # Information
-  repo-url: https://github.com/ISCB-RSG-MEXICO/Workshop_template # link de Github
+  repo-url: https://github.com/EveliaCoss/Template_Workshop_Quarto_ELCN # link de Github
   sharing: [twitter, facebook, linkedin]
-  favicon: "rsgMexico.jpeg" # icono de la pagina en pestana
+  favicon: "enesLogo.png" # icono de la pagina en pestana
 
 
 format:
